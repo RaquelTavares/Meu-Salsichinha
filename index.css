@@ -1,0 +1,60 @@
+body{
+    background-color: #E8DAB2;
+}
+header{
+    background-color:#E8DAB2;
+    height: 100%;
+}
+@font-face {
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/raleway/v27/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCFPrEHJA.woff2) format('woff2');
+      unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+article{
+    box-sizing: content-box;
+}
+
+.bemvindo{
+    font-size: 26px;
+    font-style: italic;
+}
+.petshop{
+    font-size: 52px;
+}
+.salchichinha{
+    height: 370px;
+    width: 192px;
+    object-fit: contain;
+    float: right;
+    transform: translateX(-50%);
+}
+main{
+    box-sizing: content-box;
+    margin: auto;
+    width: 800px;
+    top: 34px;
+    right: 24px;
+    bottom: 10px;
+    left: 24px;
+    padding: (-15px);
+}
+p{
+    line-height: 24px;
+}
+footer{
+    position: absolute;
+    height: 50px; 
+    background-color: #090909;
+    width: 100%;
+    text-align: right;
+    
+}
+.adote{
+    color: white;
+}
+.amigo{
+    color: #35B1D2;
+}
